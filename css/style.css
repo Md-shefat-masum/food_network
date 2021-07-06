@@ -142,10 +142,13 @@ nav {
 
 .about_image_part {
     text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 .about_image_part img {
-    height: 397px;
+    width: 50%;
 }
 
 .about_description_part {
